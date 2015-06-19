@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
-  resources :lists 
-  resources :items do
-    match'item/:id', to: 'items#complete', via: :put
-end
+  resources :lists do 
+    resources :items do
+      member do 
+        put 'complete'
+      end
+      # match'item/:id', to: 'items#complete', via: :put
+    end
+  end
   
   
   root'home#index'

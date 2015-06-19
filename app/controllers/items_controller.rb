@@ -18,7 +18,7 @@ class ItemsController < ApplicationController
   def complete
     @item = Item.find(params[:id])
     @item.update_attributes(is_complete: true)
-    redirect_to item_path(is_complete: false)
+    redirect_to @list, notice: "Item completed"
   end
 
   def destroy

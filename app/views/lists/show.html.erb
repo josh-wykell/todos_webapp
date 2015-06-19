@@ -12,8 +12,8 @@
       <ul>
         <% @list.items.each do |item| %>
           <li>
-            <% unless item.is_complete => true %>
-              <%= link_to complete_item_path(item), method: 'put' do %><i class="fa fa-circle-o"></i>
+            <% unless item.is_complete %>
+              <%= link_to complete_list_item_path(@list, item), method: 'put' do %><i class="fa fa-circle-o"></i>
                 <% end %>
             <% else %>
               <i class="fa fa-check-circle"></i>
@@ -28,7 +28,7 @@
     </td>
   </tr>
 
-<%= form_for(@list.items.new, :url => items_path(@list)) do |f| %>
+<%= form_for(@list.items.new, :url => list_items_path(@list)) do |f| %>
   <%= hidden_field_tag :list_id, @list.id %>
   
   <div class="field">
