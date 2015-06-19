@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
-  resources :lists
-  resources :items
-  root 'home#index'
+  resources :lists 
+  resources :items do
+    match'item/:id', to: 'items#complete', via: :put
+end
+  
+  
+  root'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

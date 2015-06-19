@@ -1,18 +1,40 @@
 class ItemsController < ApplicationController
-  before_action :set_list, only: [:show, :edit, :update, :destroy]
+  before_action :set_item, only: [:show, :edit, :update, :destroy]
 
-  def index
-    @items = Item.all
+  def create
+    @list = List.find(params[:list_id])
+    @list.items.create(item_params)
+    redirect_to @list, notice: 'Item Added'
+  end
+
+  def new
+    @item = Item.new
+  end
+
+  def update
+
+  end
+
+  def complete
+    @item = Item.find(params[:id])
+    @item.update_attributes(is_complete: true)
+    redirect_to item_path(is_complete: false)
+  end
+
+  def destroy
+    @list = List.find(params[:list_id])
+    @item = @list.items.find(params[:id])
+    @item.destroy
+    redirect_to @list, notice: 'Item Deleted'
   end
 
   private
 
-    def set_item
-      @item = Item.find(params[:id])
-    end
+  def set_item
+    @item = Item.find(params[:id])
+  end
 
-    def list_params
-      params.require(:list).permit(:task, :due_date, :is_complete, :list_id)
-    end
-
+  def item_params
+    params.require(:item).permit(:task, :due_date, :is_complete, :list_id)
+  end
 end

@@ -2,7 +2,37 @@ class ListsController < ApplicationController
   before_action :set_list, only: [:show, :edit, :update, :destroy]
 
   def index
-    @list = Lists.all
+    @lists = List.all
+  end
+
+  def create
+    @list = List.create(list_params)
+    if @list.save
+      redirect_to lists_path, notice: 'Your list was successfuly created'
+    else 
+      render :new
+    end 
+  end
+
+  def new
+    @list = List.new
+  end
+
+  def update
+    if @list.update(list_params)
+      redirect_to@list, notice: 'Review was successfuly updated' 
+    else
+      render :edit
+    end
+  end
+
+  # def destroy
+  #   @list.destroy
+  #   redirect_to @list notice: 'List Deleted'
+
+  def show
+    @list = List.find(params[:id])
+    @items = @list.items.order(:created_at)
   end
 
   private
