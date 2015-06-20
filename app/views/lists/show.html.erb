@@ -12,13 +12,14 @@
       <ul>
         <% @list.items.each do |item| %>
           <li>
+            <h5><%= item.task %></h5>
             <% unless item.is_complete %>
               <%= link_to complete_list_item_path(@list, item), method: 'put' do %><i class="fa fa-circle-o"></i>
                 <% end %>
             <% else %>
               <i class="fa fa-check-circle"></i>
             <% end %>
-            <h5><%= item.task %></h5>
+          <h5><%= item.task %></h5>
           </li>
           <li>
             <p>due:<%= item.due_date %></p>
