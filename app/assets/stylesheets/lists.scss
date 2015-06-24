@@ -1,3 +1,24 @@
 // Place all the styles related to the lists controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#lists_index li {
+  list-style-type: none;
+  display: inli;
+  padding: 80px;
+  //  columns: 3;
+  // -webkit-columns: 3;
+  // -moz-columns: 3;
+   text-align: center;
+}
+
+#list_show {
+  font-size: 20px;
+}
+
+#show_list {
+  font-size: 30px;
+}
+
+#list_trash{
+  font-size: 20px;
+}

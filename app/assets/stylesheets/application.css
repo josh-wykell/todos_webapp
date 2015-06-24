@@ -13,3 +13,52 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+ .footer_text {
+  text-align: center;
+  padding-top: 3px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #799e70
+}
+
+.footer p {
+  /*margin-top: 14px;*/
+  bottom: 0;
+  color: #8c22c9;
+}
+
+#contents {
+  display: block;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  color: #8c22c9;
+}
+
+#customize_nav {
+  background-color: #639358 ;
+}
+
+.todo_logo {
+  text-align: right;
+}
+
+#logo_heading{
+  margin-top: 10px;
+  color: #9e00fa;
+}
+
+
+
+
+
+
+

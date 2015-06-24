@@ -1,24 +1,29 @@
 <p id="notice"><%= notice %></p>
 
-<h1>To Do's</h1>
+<h2>Here Are Your Latest Lists</h2>
 
-<h2>To Do Lists</h2>
-
-<ul>
-  <% @recent_lists.each do |list| %>
-  <li>
-    <h4><%= list.name %></h4>
-    <ul>
-      <%list.items.each do |item| %>
+<div id="recent_lists">
+  <ul class="todo_list">
+    <% @recent_lists.each do |list| %>
+    <li>
+      <h4><%= link_to "#{list.name}", list_path(list) %></h4>
+      <ul class="list_items">
+        <%list.items.each do |item| %>
         <li>
-          [<%= completed(item) %>]
+          <% unless item.is_complete %>
+            <%= link_to complete_list_item_path(list, item), method: 'put' do %><i class="fa fa-circle-o"></i>
+              <% end %>
+          <% else %>
+            <i class="fa fa-check-circle"></i>
+          <% end %>
           <%= item.task %>
-          (<%= item.due_date %>)
+          (<%= item.due_date.strftime("due %D") %>)
         </li>
-      <% end %>
-    </ul>
-  </li>
-  <% end %>
-</ul>
+        <% end %>
+      </ul>
+    </li>
+    <% end %>
+  </ul>
+</div>
 
-<%= link_to 'All Lists', lists_path %>
+

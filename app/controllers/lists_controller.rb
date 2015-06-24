@@ -8,7 +8,7 @@ class ListsController < ApplicationController
   def create
     @list = List.create(list_params)
     if @list.save
-      redirect_to lists_path, notice: 'Your list was successfuly created'
+      redirect_to list_path(@list), notice: 'Your list was successfuly created'
     else 
       render :new
     end 
@@ -19,6 +19,7 @@ class ListsController < ApplicationController
   end
 
   def update
+    @list = List.find(params[:id])
     if @list.update(list_params)
       redirect_to@list, notice: 'Review was successfuly updated' 
     else
@@ -26,9 +27,10 @@ class ListsController < ApplicationController
     end
   end
 
-  # def destroy
-  #   @list.destroy
-  #   redirect_to @list notice: 'List Deleted'
+  def destroy
+    @list.destroy
+    redirect_to lists_path(@list), notice: 'List Deleted'
+  end
 
   def show
     @list = List.find(params[:id])

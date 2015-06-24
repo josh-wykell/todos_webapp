@@ -2,12 +2,15 @@
 
 <H1>ToDo Lists</H1>
 
-<ul>
-  <% @lists.each do |list| %>
-    <li>
-      <h3><%= link_to "#{list.name}", list_path(list) %></h3>
-    </li>
-  <% end %>
-</ul>
+<div id="lists_index">
+  <ul class="todo_list row">
+    <% @lists.each do |list| %>
+      <li class="col-xs-4">
+        <h3><%= link_to "#{list.name}", list_path(list) %></h3>
+      </li>
+    <% end %>
+  </ul>
+</div>
 
 <%= link_to 'Make A New List', new_list_path %>
+
