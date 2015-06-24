@@ -34169,3 +34169,161 @@ Processing by HomeController#index as HTML
   [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 16]]
   Rendered home/index.html.erb within layouts/application (7.2ms)
 Completed 200 OK in 114ms (Views: 111.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 18:46:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mList Load (1.0ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.8ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 19]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 18]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 17]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (65.6ms)
+Completed 200 OK in 670ms (Views: 640.6ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/bootstrap-generators.self-cc7e7c39945484dac829dc6ed4067270637e14e6a62310d2f561185b93ebcff6.css?body=1" for 127.0.0.1 at 2015-06-24 18:46:53 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-24 18:46:53 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-24 18:46:53 -0400
+
+
+Started GET "/assets/lists.self-e41d389cd85707c563966849f4342082709904f99d429f66a1c3b6617c2eb48c.css?body=1" for 127.0.0.1 at 2015-06-24 18:46:53 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-24 18:46:53 -0400
+
+
+Started GET "/assets/home.self-3fef942ec0f7b265d5b5910bda8875708d36d02bcc4796efb8c2cc5b687f9ae9.css?body=1" for 127.0.0.1 at 2015-06-24 18:46:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-06-24 18:46:53 -0400
+
+
+Started PUT "/lists/19/items/26/complete" for 127.0.0.1 at 2015-06-24 18:46:56 -0400
+Processing by ItemsController#complete as HTML
+  Parameters: {"authenticity_token"=>"EdzJPhaCMFMNzUC3WLVq+gCZQCkuDYBphrbxw7/Erox5mB9e+Ug6paJEh4wBtcoZEk/TnMEysC1iT/cKMk+x2A==", "list_id"=>"19", "id"=>"26"}
+  [1m[35mList Load (0.4ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", 26]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "items" SET "is_complete" = $1, "updated_at" = $2 WHERE "items"."id" = $3[0m  [["is_complete", "t"], ["updated_at", "2015-06-24 22:46:56.732558"], ["id", 26]]
+  [1m[35m (5.5ms)[0m  COMMIT
+Redirected to http://localhost:5000/lists/19
+Completed 302 Found in 56ms (ActiveRecord: 10.9ms)
+
+
+Started GET "/lists/19" for 127.0.0.1 at 2015-06-24 18:46:56 -0400
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mList Load (0.3ms)[0m  [1mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1  [["id", "19"]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 19]]
+  Rendered lists/show.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 222ms (Views: 212.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 18:46:59 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.5ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 19]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 18]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 17]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 140ms (Views: 137.6ms | ActiveRecord: 1.7ms)
+
+
+Started PUT "/lists/19/items/27/complete" for 127.0.0.1 at 2015-06-24 18:47:02 -0400
+Processing by ItemsController#complete as HTML
+  Parameters: {"authenticity_token"=>"+87TxJ63Q7pgYQXCmaEsK2vD1+ohiaGu03y6L4ZZxlmTigWkcX1JTM/owvnAoYzIeRVEX862keo3hbzmC9LZDQ==", "list_id"=>"19", "id"=>"27"}
+  [1m[36mList Load (0.3ms)[0m  [1mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1  [["id", 27]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "items" SET "is_complete" = $1, "updated_at" = $2 WHERE "items"."id" = $3  [["is_complete", "t"], ["updated_at", "2015-06-24 22:47:02.276583"], ["id", 27]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:5000/lists/19
+Completed 302 Found in 6ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/lists/19" for 127.0.0.1 at 2015-06-24 18:47:02 -0400
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1[0m  [["id", "19"]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  Rendered lists/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 127ms (Views: 123.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 18:47:04 -0400
+Processing by HomeController#index as HTML
+  [1m[36mList Load (0.3ms)[0m  [1mSELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5[0m
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 125ms (Views: 123.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/lists" for 127.0.0.1 at 2015-06-24 18:47:07 -0400
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT "lists".* FROM "lists"
+  Rendered lists/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 108ms (Views: 106.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lists/16" for 127.0.0.1 at 2015-06-24 18:47:09 -0400
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mList Load (0.3ms)[0m  [1mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1  [["id", "16"]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered lists/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 111ms (Views: 109.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/lists/new" for 127.0.0.1 at 2015-06-24 18:47:13 -0400
+Processing by ListsController#new as HTML
+  Rendered lists/_form.html.erb (2.3ms)
+  Rendered lists/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 111ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lists" for 127.0.0.1 at 2015-06-24 18:47:27 -0400
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o7mXb/TuQY0VXpsbYcSUOL9d5Rhe15/t6fDnnyS/xvzL/UEPGyRLe7rXXCA4xDTbrYt2rbHor6kNCeFWqTTZqA==", "list"=>{"name"=>"Exersize"}, "commit"=>"Create List"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "lists" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Exersize"], ["created_at", "2015-06-24 22:47:27.088828"], ["updated_at", "2015-06-24 22:47:27.088828"]]
+  [1m[35m (6.5ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:5000/lists/20
+Completed 302 Found in 15ms (ActiveRecord: 8.4ms)
+
+
+Started GET "/lists/20" for 127.0.0.1 at 2015-06-24 18:47:27 -0400
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mList Load (0.7ms)[0m  [1mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1  [["id", "20"]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  Rendered lists/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 129ms (Views: 124.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 18:47:31 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (1.0ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 110ms (Views: 106.8ms | ActiveRecord: 2.3ms)
