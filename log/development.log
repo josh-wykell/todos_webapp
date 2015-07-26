@@ -34985,3 +34985,2812 @@ Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323
 
 
 Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 17:11:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:06:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.9ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.8ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 681ms (Views: 643.6ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:06:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.7ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (34.9ms)
+Completed 200 OK in 315ms (Views: 295.8ms | ActiveRecord: 5.7ms)
+
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:07:59 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.7ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 144ms (Views: 141.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:08:20 -0400
+
+
+Started GET "/lists/18" for 127.0.0.1 at 2015-07-25 20:08:35 -0400
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mList Load (2.9ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT 1[0m  [["id", "18"]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 18]]
+  Rendered lists/show.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 151ms (Views: 138.0ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/lists" for 127.0.0.1 at 2015-07-25 20:08:55 -0400
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.3ms)[0m  [1mSELECT "lists".* FROM "lists"[0m
+  Rendered lists/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 119ms (Views: 117.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.4ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 119ms (Views: 117.0ms | ActiveRecord: 1.6ms)
+
+
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:31 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:32 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:10:32 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.4ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 126ms (Views: 123.5ms | ActiveRecord: 1.6ms)
+
+
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:11:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:13:47 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 112ms (Views: 110.4ms | ActiveRecord: 1.3ms)
+
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:13:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.7ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 121ms (Views: 118.8ms | ActiveRecord: 1.8ms)
+
+
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:14:36 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.7ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 117ms (Views: 114.2ms | ActiveRecord: 2.1ms)
+
+
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:18:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.6ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 168ms (Views: 165.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/home.self-3fb7459c3f098e4f1a6e61d40e1f5305509ff4d40643063dda027beed9919995.css?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:49 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:50 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:20:50 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.6ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 177ms (Views: 174.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/home.self-4a7a7451429449bb64f801c559230e1f8c99118858ef3e64e5621a9fb3671c66.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:20 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 136ms (Views: 133.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/home.self-3fb7459c3f098e4f1a6e61d40e1f5305509ff4d40643063dda027beed9919995.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:21:57 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:22:33 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.4ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 164ms (Views: 161.1ms | ActiveRecord: 1.8ms)
+
+
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+Started GET "/assets/application.self-a351c426736b3c8afa8b690eb8c2bae4fc840e432418fd923a121878a9fc7b02.css?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/home.self-3fb7459c3f098e4f1a6e61d40e1f5305509ff4d40643063dda027beed9919995.css?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:22:34 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:25:03 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 176ms (Views: 174.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-adce1de73c9a1f9a3b7013673fd4c1dd50fad170462201160773dc6681cc34e0.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:04 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.5ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (1.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (2.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 151ms (Views: 144.6ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/application.self-adce1de73c9a1f9a3b7013673fd4c1dd50fad170462201160773dc6681cc34e0.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:25:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.4ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 165ms (Views: 162.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.self-3d91dd935489227780ab1f605c982b02c83b08a9b76a62cf342ebc693504ed3d.css?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:26:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:32:05 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 149ms (Views: 146.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:32:05 -0400
+
+
+Started GET "/assets/application.self-7c22e01bca993edfd3c79782676c02b20d61862485192b2d1c9908d4412a6a5c.css?body=1" for 127.0.0.1 at 2015-07-25 20:32:05 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:32:05 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:32:05 -0400
+
+
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:32:05 -0400
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:32:06 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:33:13 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 147ms (Views: 145.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-b54f1727012f8df49e26b630383075a554f45bcaf2d5ad1053a4f19cc4d8c7b3.css?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:33:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.5ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.8ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 167ms (Views: 163.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/application.self-5975b6cb0b3c993fa238d0df572f12e877c8cc03e50201cc50c61592362eb6d8.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:00 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 166ms (Views: 163.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-395038f9a395c5d2e821bd078452a64053c22c6f8ba420318c15f8ecbe4d8491.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:34:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 148ms (Views: 145.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:02 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 124ms (Views: 121.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:36:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:37:37 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 128ms (Views: 126.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:37:38 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.5ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 111ms (Views: 108.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 124ms (Views: 121.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:38:43 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:39:04 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.4ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 118ms (Views: 115.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:39:05 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:40:27 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.5ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 139ms (Views: 136.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:40:55 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 129ms (Views: 126.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:40:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.4ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 115ms (Views: 113.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/application.self-388732e35f51c880b37e9e1a48dd9329420907c619adf4e1c1874569205f1168.css?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:41:38 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:42:16 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.4ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 146ms (Views: 143.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-8ac05a0826306d67403fd1f3a8eb8c5b0c460b6af1be398b88dfb8c1d46e4aa1.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 153ms (Views: 150.4ms | ActiveRecord: 2.0ms)
+
+
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+Started GET "/assets/application.self-e8045123d31bed96a2385010034a0100769cff3d641127957ba0290eb515aaf5.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:38 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:39 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-25 20:42:53 -0400
+Processing by HomeController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists"  ORDER BY created_at DESC LIMIT 5
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 20]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 19]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 18]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items" WHERE "items"."list_id" = $1  [["list_id", 17]]
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."list_id" = $1[0m  [["list_id", 16]]
+  Rendered home/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 165ms (Views: 162.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/bootstrap-generators.self-074280c728a6b1f20e1cfa7403f88e38ed6ff2e77c99fae31853c9e9dc09d857.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap-variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/home.self-13256e1efea82940d2e5914b839e92ffb1270f9369eed900e99b76d150b0a252.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/lists.self-11aa0fe5407f3481610631ccb768dc953e3345f80494aeb1c30724e2bc89e7eb.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/application.self-a7f82231b0272a5f0cbf0d7706461b055475fdfd1d79c321b9ed4c5c9c572402.css?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-25 20:42:54 -0400

@@ -56,7 +56,11 @@ body {
   color: #9e00fa;
 }
 
-
+td {
+  max-width: 50px;
+  padding: none;
+  margin: none;
+}
 
 
 
