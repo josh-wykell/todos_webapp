@@ -16,7 +16,9 @@
 
 body {
   font-family: 'Roboto Slab', serif;
+  background-color: #f3ffd6;
 }
+
  .footer_text {
   text-align: center;
   padding-top: 3px;
@@ -51,6 +53,10 @@ body {
   text-align: right;
 }
 
+.todo_logo > h3 > a {
+  color: #8c22c9;
+}
+
 #logo_heading{
   margin-top: 10px;
   color: #9e00fa;
@@ -62,7 +68,25 @@ td {
   margin: none;
 }
 
+table {
+  background: #FFFFFF;
+  border: solid 1px #DDDDDD;
+  margin-bottom: 1.25rem;
+  table-layout: auto;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
 
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table > thead > tr > th {
+  border-bottom: 0px;
+  color: #639358;
+}
 
 
 
